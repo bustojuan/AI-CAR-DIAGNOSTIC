@@ -1,0 +1,35 @@
+# Secrets and private input (only credential-free examples are versioned)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+# Environments, dependencies and outputs
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+test-results/
+playwright-report/
+*.log
+# Runtime data, external manuals, database snapshots and private evaluation output
+.local-tools/
+.local-documents/
+.local-db/
+backups/
+uploads/
+*.pdf
+*.dump
+*.sqlite*
+*.zip
+.DS_Store
+Thumbs.db

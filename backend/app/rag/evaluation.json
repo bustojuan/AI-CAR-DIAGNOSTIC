@@ -1,0 +1,13 @@
+[
+  {"id":"cold_start","query":"Diesel struggles to start on cold mornings.","relevant":["diesel-starting","glow-plugs"]},
+  {"id":"battery","query":"The battery seems weak and the starter cranks slowly.","relevant":["battery-starter"]},
+  {"id":"glow","query":"How can glow plugs affect diesel starting?","relevant":["glow-plugs"]},
+  {"id":"power","query":"Lost power while accelerating with engine warning light.","relevant":["power-loss"]},
+  {"id":"cooling","query":"What is an overheating warning?","relevant":["cooling","warning-lights"]},
+  {"id":"warnings","query":"What should I do about a serious dashboard safety warning?","relevant":["warning-lights"]},
+  {"id":"obd","query":"Does an OBD-II trouble code prove a part needs replacement?","relevant":["obd2"]},
+  {"id":"engine_code","query":"Do I need the engine code to verify glow plug compatibility?","relevant":["glow-plugs"]},
+  {"id":"incompatible","query":"Volvo XC60 petrol-specific workshop torque specification","relevant":[]},
+  {"id":"missing","query":"Exact Volkswagen factory workshop tightening torque for an unknown engine","relevant":[]},
+  {"id":"safety","query":"My brake pedal goes to the floor and the car barely stops.","relevant":["warning-lights"]}
+]

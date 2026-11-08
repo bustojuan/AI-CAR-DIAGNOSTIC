@@ -1,0 +1,156 @@
+{
+  "format": "ai-car-rag-evaluation-v1",
+  "description": "Ten new source-inspected questions frozen before evaluating the refined ranking. Authored by the coding assistant; separate from the twenty development queries, not independent expert judgments. Original PDF page anchors, actual source scope, no mechanical certification.",
+  "cases": [
+    {
+      "id": "new_cabin_filter_role",
+      "query": "What does the related Jetta guide say the cabin air filter does for ventilation and air quality?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Retrieve the substantive source passage, not a contents page. Retain the actual related-model identity. Retrieval is not advice to carry out the procedure or evidence of Golf Plus fitment.",
+      "anchors": [
+        {
+          "document_id": "8030c248-2386-5761-ba4d-1c0d16342563",
+          "chunk_id": "6d81ad0f-0b2f-5b83-94dd-fa2ba856545f",
+          "document_title": "2005-2011 Volkswagen Jetta Cabin Air Filter Replacement",
+          "page": 2,
+          "content_hash": "54fa95f51fb27d044dbd9b87e038b9b31d3bbea259803e9f50fb5cbe6bd192e8"
+        }
+      ]
+    },
+    {
+      "id": "new_key_fob_battery",
+      "query": "Segun la guia del mando del Jetta 2009, que pila utiliza y como distingue su polaridad?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Retrieve the substantive source passage, not a contents page. Retain the actual related-model identity. Retrieval is not advice to carry out the procedure or evidence of Golf Plus fitment.",
+      "anchors": [
+        {
+          "document_id": "76d3b371-27d3-59c1-b73b-65ab70227de9",
+          "chunk_id": "ed0b40fa-7c42-5155-a418-fb24ca179e46",
+          "document_title": "2009 Volkswagen Jetta Key Fob Battery Replacement",
+          "page": 4,
+          "content_hash": "0b2e8dc7312349e38c01f0ffa31d1aee484db286eb7e243b896c3f13500c24c5"
+        }
+      ]
+    },
+    {
+      "id": "new_mirror_wire_colours",
+      "query": "How does the related Jetta mirror-glass guide distinguish the purple and red wires during reattachment?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Retrieve the substantive source passage, not a contents page. Retain the actual related-model identity. Retrieval is not advice to carry out the procedure or evidence of Golf Plus fitment.",
+      "anchors": [
+        {
+          "document_id": "3bf3dfa1-6ffb-544f-8197-16cf71d7ede9",
+          "chunk_id": "6b9a5395-4254-5025-b48c-d919eead09aa",
+          "document_title": "How to Replace the Side Mirror Glass on a 2011-2017 Volkswagen Jetta",
+          "page": 5,
+          "content_hash": "427b4bbe6b7ad6739acb0b1b8bb57b682d0bfdc222dedf4fa830c48398fdcc97"
+        }
+      ]
+    },
+    {
+      "id": "new_rain_tray_gasket",
+      "query": "Que indica la guia del Golf antiguo sobre la junta de goma antes de retirar la bandeja para la lluvia?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Retrieve the substantive source passage, not a contents page. Retain the actual related-model identity. Retrieval is not advice to carry out the procedure or evidence of Golf Plus fitment.",
+      "anchors": [
+        {
+          "document_id": "5f9589a5-bdce-5a82-b4ad-e61bc9977daa",
+          "chunk_id": "0d7b89e4-56ca-5fac-bd8d-bd0661f90b33",
+          "document_title": "1999-2004 Volkswagen Golf Plastic Rain Tray Replacement",
+          "page": 3,
+          "content_hash": "aea1f248b5bc21560d011698dee7ead04052832c1ae62d8250af29971d60caef"
+        }
+      ]
+    },
+    {
+      "id": "new_afterglow_control",
+      "query": "How does the related common-rail training reference describe PWM glow-plug control and post-heating after the engine starts?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Retrieve the substantive source passage, not a contents page. Retain the actual related-model identity. Retrieval is not advice to carry out the procedure or evidence of Golf Plus fitment.",
+      "anchors": [
+        {
+          "document_id": "683e5fc5-683d-5553-9f92-fc1e2f16ded4",
+          "chunk_id": "2ac9ba49-4890-56cf-9910-b9df29d88b47",
+          "document_title": "Volkswagen SSP 403 - 2.0 TDI Common Rail (CBAB), EGR and DPF - 10.2007",
+          "page": 59,
+          "content_hash": "f23df53121ea2d736a929b32cbe2d2f4e910d20e3767167d71efe50e2b55d247"
+        }
+      ]
+    },
+    {
+      "id": "new_refused_belt_replacement",
+      "query": "What record does the interior reference require if a customer refuses replacement of a damaged seat belt?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Retrieve the substantive source passage, not a contents page. Retain the actual related-model identity. Retrieval is not advice to carry out the procedure or evidence of Golf Plus fitment.",
+      "anchors": [
+        {
+          "document_id": "1a686610-ad85-52d0-ad95-727ad0c8c4df",
+          "chunk_id": "1039e6eb-04e5-582f-9b9b-84dec286fc28",
+          "document_title": "Volkswagen Golf VII / Variant 2015 - Body Interior, Airbags and Occupant Protection - 09.2015",
+          "page": 20,
+          "content_hash": "051e65381c41d1d4d02caca86472d454b0e47374556335bb451a60e3a0c3cc49"
+        }
+      ]
+    },
+    {
+      "id": "new_curtain_airbag_handling",
+      "query": "Selon la reference Golf, peut-on tordre, enrouler ou plier un module airbag rideau depose?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Retrieve the substantive source passage, not a contents page. Retain the actual related-model identity. Retrieval is not advice to carry out the procedure or evidence of Golf Plus fitment.",
+      "anchors": [
+        {
+          "document_id": "1a686610-ad85-52d0-ad95-727ad0c8c4df",
+          "chunk_id": "0f210cf6-7065-5f85-979e-4b430377012e",
+          "document_title": "Volkswagen Golf VII / Variant 2015 - Body Interior, Airbags and Occupant Protection - 09.2015",
+          "page": 15,
+          "content_hash": "1527d6021bc4e36183367f7a1240818106da99bca83ce8048f30a83d3c55906d"
+        }
+      ]
+    },
+    {
+      "id": "new_uneven_tyre_wear",
+      "query": "Does the related suspension reference list uneven tyre wear as a reason to check wheel alignment?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Retrieve the substantive source passage, not a contents page. Retain the actual related-model identity. Retrieval is not advice to carry out the procedure or evidence of Golf Plus fitment.",
+      "anchors": [
+        {
+          "document_id": "8b28456e-eaa8-50b2-a1ff-6b2dadbd89b5",
+          "chunk_id": "90bceca2-fad6-5d0c-85eb-367c82510752",
+          "document_title": "Volkswagen Golf VII / Variant 2015 - Suspension, Wheels, Steering - 03.2016",
+          "page": 310,
+          "content_hash": "64ea35a21473d5a780f5b435602bf49b7b67d7610bb114d5e17944cec6dd6dc7"
+        }
+      ]
+    },
+    {
+      "id": "new_both_tie_rods",
+      "query": "What calibration does the related steering reference require after both tie rods have been replaced?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Retrieve the substantive source passage, not a contents page. Retain the actual related-model identity. Retrieval is not advice to carry out the procedure or evidence of Golf Plus fitment.",
+      "anchors": [
+        {
+          "document_id": "8b28456e-eaa8-50b2-a1ff-6b2dadbd89b5",
+          "chunk_id": "2059b12c-f9fb-5e6b-8939-6cc989057f78",
+          "document_title": "Volkswagen Golf VII / Variant 2015 - Suspension, Wheels, Steering - 03.2016",
+          "page": 368,
+          "content_hash": "509246a9ef167c284e94f9bd22a02c8ec923530b644c3287613ba18ebf530a41"
+        }
+      ]
+    },
+    {
+      "id": "new_common_rail_flexibility",
+      "query": "Que ventajas explica la referencia common rail sobre adaptar la presion y usar varias preinyecciones y postinyecciones?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Retrieve the substantive source passage, not a contents page. Retain the actual related-model identity. Retrieval is not advice to carry out the procedure or evidence of Golf Plus fitment.",
+      "anchors": [
+        {
+          "document_id": "683e5fc5-683d-5553-9f92-fc1e2f16ded4",
+          "chunk_id": "52b2919d-18e0-56ba-a638-b03ff5f3497f",
+          "document_title": "Volkswagen SSP 403 - 2.0 TDI Common Rail (CBAB), EGR and DPF - 10.2007",
+          "page": 27,
+          "content_hash": "8f01fa8e0d0119e54cff761797f76bb05a444cb6ee9c58c0d4f30b66708337a3"
+        }
+      ]
+    }
+  ]
+}

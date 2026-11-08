@@ -1,0 +1,22 @@
+{
+  "mode": "explicit_browser_demo",
+  "viewport": [
+    1440,
+    1200
+  ],
+  "real_ui_screenshots": true,
+  "synthetic_reports_and_parts": true,
+  "video_created": false,
+  "api_calls": 0,
+  "browser_errors": 0,
+  "console_errors": 0,
+  "files": [
+    "01-home.png",
+    "02-diagnosis.png",
+    "03-report.png",
+    "04-history.png",
+    "05-parts.png",
+    "06-vehicle.png",
+    "07-engine-bay.png"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "scope": "Historical development checks; not rerun for the publication and not mechanically validated. Private source corpus is not redistributed.",
+  "retrieval": {
+    "checked_at": "2026-11-05T18:20:26.425957+00:00",
+    "embedding_model": "text-embedding-3-small",
+    "assessment_translation_model": "gpt-4.1-mini",
+    "k": 4,
+    "datasets": [
+      {
+        "dataset": "development",
+        "dataset_sha256": "3481a0ae08e26fb443b80b60c07829b3c283aae518a8eb96b696d1d7baa9a89d",
+        "reference_hits": 20,
+        "recall_at_4": 1.0,
+        "mrr": 0.6666666666666666,
+        "mean_latency_ms": 2309.78735,
+        "case_count": 20
+      },
+      {
+        "dataset": "new_questions",
+        "dataset_sha256": "ff5679f3488d4681b720433df6c3f3787e7cbd78ae9c294a1c4f73aeb26c10be",
+        "reference_hits": 9,
+        "recall_at_4": 0.9,
+        "mrr": 0.8,
+        "mean_latency_ms": 1955.9594,
+        "case_count": 10
+      },
+      {
+        "dataset": "negative_controls",
+        "dataset_sha256": "bc6ac1e710e1cfd30952edafe1c95067729e350c7cccf5a2b549a108e8a43c57",
+        "reference_hits": 0,
+        "recall_at_4": null,
+        "mrr": null,
+        "mean_latency_ms": 1576.234,
+        "case_count": 2
+      }
+    ]
+  },
+  "diagnostic_validation": {
+    "created_at": "2026-11-05T17:58:13.295467+00:00",
+    "scope": "Real FastAPI diagnostic routes via ASGI; real OpenAI and PostgreSQL RAG; isolated in-memory case storage. No browser-driven live consultation or MCP provider evaluation.",
+    "diagnostic_model": "gpt-4.1-mini",
+    "embedding_model": "text-embedding-3-small",
+    "production_case_writes": false,
+    "first_final_run": {
+      "cases": 11,
+      "automatic_expected_results": 10,
+      "blocked_invalid_citation_responses": 1
+    },
+    "targeted_followup": {
+      "cases": 2,
+      "automatic_expected_results": 2
+    },
+    "latest_unique_cases": 12,
+    "latest_automatic_checks_passed": true,
+    "semantic_grounding_complete": false,
+    "mechanical_accuracy_score": null
+  },
+  "provenance_checks": {
+    "unique_cited_chunks": 22,
+    "unique_source_files": 10,
+    "all_hash_text_page_section_checks_passed": true
+  }
+}

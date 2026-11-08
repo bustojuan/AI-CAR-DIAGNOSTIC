@@ -1,0 +1,22 @@
+Title: under hood - overview
+Creator: VW TDI
+Source: https://www.flickr.com/photos/vw_tdi/192839547/
+Original image: https://live.staticflickr.com/61/192839547_6bdf023df1_o.jpg
+License: Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic
+License URL: https://creativecommons.org/licenses/by-nc-sa/2.0/
+Legal code: https://creativecommons.org/licenses/by-nc-sa/2.0/legalcode
+
+Photo downloaded on 2026-11-05 from the creator's publicly offered original.
+2560 x 1920 JPEG, 2460010 bytes.
+SHA-256: c5968fabd29fccf65c94aa8e650ecfd97e2425af37886890d3eb2c1f0d86540e
+The original photograph is unmodified. Interactive location annotations derived
+from this image are also distributed under CC BY-NC-SA 2.0 with this attribution.
+The license applies to this photograph and its location annotations, not unrelated
+application code. No endorsement by the photographer or Volkswagen is implied.
+
+Non-commercial use only. Preserve attribution and license information and share
+adaptations under the same license. A commercial deployment needs a replacement
+asset with suitable rights or separate permission from the copyright holder.
+
+Depicted vehicle: photographer's 2006 Volkswagen Golf, 1.9 TDI BEW.
+This is not a verified Golf Plus 2006 2.0 TDI layout or workshop reference.

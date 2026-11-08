@@ -1,0 +1,136 @@
+[
+  {
+    "id": "kfz_golf_plus_cffb_engine_manual",
+    "title": "Golf Plus EA189 Gen II engine workshop manual",
+    "publisher": "KFZ-Verlag",
+    "url": "https://www.kfz-verlag.de/golf-plus-2009-2014-dieselmotor-reparaturanleitung-ebook/p-13349.html",
+    "pages_advertised": 418,
+    "language": "de",
+    "license_status": "restricted",
+    "applicability": "Golf Plus February 2009-January 2014; CFFB explicitly listed among several engine codes.",
+    "engine_code": "CFFB",
+    "note": "Only a public index is held. Complete paid PDF is not acquired and advertises copy protection."
+  },
+  {
+    "id": "tec_golf_plus_cffb_fuel_supply",
+    "title": "Golf Plus diesel fuel supply workshop manual",
+    "publisher": "TEC VERLAG",
+    "url": "https://www.originalanleitungen.de/vw-golf-6-plus-08-14-reparaturleitfaden-kraftstoffversorgung-dieselmotoren",
+    "pages_advertised": 70,
+    "language": "de",
+    "license_status": "restricted",
+    "applicability": "Golf Plus 2009 onward; publisher explicitly includes CFFB.",
+    "engine_code": "CFFB",
+    "note": "Public sample is an older edition; the complete paid manual and processing permission are not held."
+  },
+  {
+    "id": "tec_golf_plus_maintenance",
+    "title": "Golf and Golf Plus maintenance manual",
+    "publisher": "TEC VERLAG",
+    "url": "https://www.originalanleitungen.de/vw-golf-6-plus-08-14-instandhaltung-service-wartung-9693",
+    "pages_advertised": 247,
+    "language": "de",
+    "license_status": "restricted",
+    "applicability": "Golf/Golf Plus 2009 onward; service regime, market and engine-specific tables need review.",
+    "note": "Only the public index is held; general inspections do not replace component repair manuals."
+  },
+  {
+    "id": "tec_golf_plus_brakes",
+    "title": "Golf and Golf Plus brake systems workshop manual",
+    "publisher": "TEC VERLAG",
+    "url": "https://www.originalanleitungen.de/vw-golf-6-plus-08-14-reparaturleitfaden-bremsen-bremsanlagen",
+    "pages_advertised": 187,
+    "language": "de",
+    "license_status": "restricted",
+    "applicability": "Golf/Golf Plus 2009 onward; installed brake PR codes and ABS equipment unconfirmed.",
+    "note": "Complete manual not acquired; equipment allocation must be retained."
+  },
+  {
+    "id": "manuales_golf_plus_owner_candidate",
+    "title": "Golf Plus 2009 owner manual listing",
+    "publisher": "Manuales.mx listing; document edition unverified",
+    "url": "https://www.manuales.mx/volkswagen/golf-plus-2009/manual",
+    "pages_advertised": 541,
+    "language": "en",
+    "license_status": "unknown",
+    "applicability": "Advertised as Golf Plus 2009; US/California annexes require edition and market verification.",
+    "note": "No original PDF acquired. Website-generated answers are excluded from technical evidence."
+  },
+  {
+    "id": "manualmachine_golf_plus_0a4",
+    "title": "0A4 five-speed manual gearbox workshop volume",
+    "publisher": "Volkswagen-labelled document on ManualMachine; provenance unverified",
+    "url": "https://manualmachine.com/volkswagen/golfplus2009/2571760-user-manual/",
+    "pages_advertised": null,
+    "language": "en",
+    "license_status": "unknown",
+    "applicability": "April 2010 cover includes Golf Plus 2009 onward; installed gearbox must be identified.",
+    "note": "Not an owner or CFFB engine manual. Website download restriction was not bypassed. The owner later supplied a local 319-page copy, privately ingested for learning; source-site licensing remains unknown. See USER_MANUALS.md."
+  },
+  {
+    "id": "kfz_golf_plus_electrical",
+    "title": "Golf Plus electrical systems workshop manual",
+    "publisher": "KFZ-Verlag",
+    "url": "https://www.kfz-verlag.de/golf-plus-elektrische-anlage-elektrik-systeme-reparaturanleitung/p-1236.html",
+    "pages_advertised": 367,
+    "language": "de",
+    "license_status": "restricted",
+    "applicability": "Golf Plus February 2009-January 2014; starter/alternator procedures have engine and transmission variants.",
+    "note": "Electrical component procedures, not wiring diagrams. Public index only; complete book not acquired."
+  },
+  {
+    "id": "kfz_golf_plus_wiring",
+    "title": "Golf Plus wiring diagrams candidate",
+    "publisher": "KFZ-Verlag",
+    "url": "https://www.kfz-verlag.de/golf-plus-2009-2014-schaltplan-stromlaufplan-verkabelung-elektrik-plaene/p-1292.html",
+    "pages_advertised": 944,
+    "language": "de",
+    "license_status": "restricted",
+    "applicability": "Golf Plus February 2009-January 2014; listing names CFHB/CFHC and other engines but does not name CFFB in its own applicability field.",
+    "note": "Related Volkswagen reference candidate; engine-specific wiring is not confirmed for CFFB. Generic marketing contents are not proof of an exact circuit."
+  },
+  {
+    "id": "kfz_golf_plus_chassis",
+    "title": "Golf Plus running gear, axles and steering workshop manual",
+    "publisher": "KFZ-Verlag",
+    "url": "https://www.kfz-verlag.de/golf-plus-2009-2014-fahrwerk-achsen-lenkung-reparaturanleitung-ebook/p-13331.html",
+    "pages_advertised": 179,
+    "language": "de",
+    "license_status": "restricted",
+    "applicability": "Golf Plus February 2009-January 2014; suspension/steering equipment and PR allocations need checking.",
+    "note": "Public index only; complete paid PDF advertises copy protection and has not been acquired."
+  },
+  {
+    "id": "kfz_golf_plus_hvac",
+    "title": "Golf Plus heating, ventilation and air conditioning workshop manual",
+    "publisher": "KFZ-Verlag",
+    "url": "https://www.kfz-verlag.de/golf-plus-2008-2014-heizung-belueftung-klimaanlage-reparaturanleitung/p-13327.html",
+    "pages_advertised": 150,
+    "language": "de",
+    "license_status": "restricted",
+    "applicability": "Golf Plus February 2009-January 2014; Climatic/Climatronic and build-date variants require selection.",
+    "note": "Public index only. A component manual does not establish refrigerant charge or installed hardware for this car."
+  },
+  {
+    "id": "kfz_golf_plus_interior_safety",
+    "title": "Golf Plus interior body and occupant protection workshop manual",
+    "publisher": "KFZ-Verlag",
+    "url": "https://www.kfz-verlag.de/golf-plus-karosserie-montagearbeiten-innen-reparaturanleitung/p-13325.html",
+    "pages_advertised": 212,
+    "language": "de",
+    "license_status": "restricted",
+    "applicability": "Golf Plus February 2009-January 2014; includes occupant protection, airbags, trim and seats, with equipment variants.",
+    "note": "Public index only; complete paid PDF and processing permission are not held."
+  },
+  {
+    "id": "kfz_golf_plus_exterior",
+    "title": "Golf Plus exterior body workshop manual",
+    "publisher": "KFZ-Verlag",
+    "url": "https://www.kfz-verlag.de/golf-plus-2009-2014-karosseriearbeiten-aussen-reparaturanleitung-ebook/p-13326.html",
+    "pages_advertised": 312,
+    "language": "de",
+    "license_status": "restricted",
+    "applicability": "Golf Plus February 2009-January 2014; body closures, doors, glazing and exterior equipment.",
+    "note": "Public index only; complete paid PDF and processing permission are not held."
+  }
+]

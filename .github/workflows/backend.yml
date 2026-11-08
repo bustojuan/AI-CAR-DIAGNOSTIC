@@ -1,0 +1,29 @@
+name: Backend checks
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:0.8.2-pg16
+        env:
+          POSTGRES_DB: test_ai_car_diagnostic
+          POSTGRES_USER: postgres
+          # Ephemeral CI service only; no real credentials or public deployment.
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d test_ai_car_diagnostic"
+          --health-interval 5s --health-timeout 5s --health-retries 12
+    env:
+      TEST_DATABASE_URL: postgresql+psycopg://postgres@localhost:5432/test_ai_car_diagnostic
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/audit_publication.py
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --project backend --locked --extra dev --python 3.12
+      - run: uv run --project backend pytest backend/tests -m "not live" -q
+      - run: uv run --project backend python -m unittest discover -s scripts/tests
+      - run: uv run --project backend ruff check backend
+      - run: uv run --project backend ruff format --check backend

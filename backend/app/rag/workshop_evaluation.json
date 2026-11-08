@@ -1,0 +1,306 @@
+{
+  "format": "ai-car-rag-evaluation-v1",
+  "description": "Twenty human-authored learning-scope retrieval cases anchored to inspected local manual passages. Anchors identify physical original PDF pages, not printed workshop page labels. No live retrieval score or mechanical certification is implied. Expected scopes describe the owner-reported Golf Plus 2009 CFFB application profile.",
+  "cases": [
+    {
+      "id": "soft_brake_pedal",
+      "query": "What does the brake workshop reference say about an excessively long or soft brake pedal after bleeding?",
+      "expected_scope": "matching_vehicle_metadata",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "0758408c-82ba-5eb1-b26a-97f1accba15e",
+          "chunk_id": "1424d168-2023-5d5f-9be9-7b40ab54c89d",
+          "document_title": "Volkswagen Golf / Golf Plus 2009 - Brake System (05.2012)",
+          "page": 102,
+          "content_hash": "1af8cb871027ba078d73d340246459d3b0b86955b1c848bb90948d56f21b1901"
+        }
+      ]
+    },
+    {
+      "id": "brake_fluid_safety",
+      "query": "What safety cautions accompany brake fluid and hydraulic bleeding in the brake reference?",
+      "expected_scope": "matching_vehicle_metadata",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "0758408c-82ba-5eb1-b26a-97f1accba15e",
+          "chunk_id": "24b9bd2c-d3d9-51e1-83c9-d3adf764b921",
+          "document_title": "Volkswagen Golf / Golf Plus 2009 - Brake System (05.2012)",
+          "page": 101,
+          "content_hash": "2ab03d515664426fd89511eda9a4115592b633a2554aaf5cf263ca05b3f157f4"
+        }
+      ]
+    },
+    {
+      "id": "clutch_hydraulics",
+      "query": "Which hydraulic clutch bleeding equipment is described in the 0A4 gearbox reference?",
+      "expected_scope": "matching_vehicle_metadata",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price. The installed gearbox code is unconfirmed; do not claim that the vehicle has an 0A4 gearbox.",
+      "anchors": [
+        {
+          "document_id": "ade1c3e0-576a-5ec9-b974-52fe1b31a7d5",
+          "chunk_id": "cf70f085-c90c-55a5-8eb0-7055efa0260a",
+          "document_title": "Volkswagen Golf / Golf Plus / Passat - 5-speed manual gearbox 0A4 (04.2010)",
+          "page": 107,
+          "content_hash": "6b60409f0bbc31ed27c3027d6801782009d3d2bac048402686e146a613b50485"
+        }
+      ]
+    },
+    {
+      "id": "steering_pull",
+      "query": "What steering and suspension checks are discussed for a vehicle that pulls to one side?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "8b28456e-eaa8-50b2-a1ff-6b2dadbd89b5",
+          "chunk_id": "9cb7796b-e536-577c-86a4-0ee90442bd8a",
+          "document_title": "Volkswagen Golf VII / Variant 2015 - Suspension, Wheels, Steering - 03.2016",
+          "page": 302,
+          "content_hash": "1b40c6b41eee1b5faac53cb5fe44a38f5f42cc3c939cdc3dfae82cac410f97fa"
+        }
+      ]
+    },
+    {
+      "id": "damper_oil",
+      "query": "Does slight oil sweating always mean that a shock absorber needs replacement?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "e6594d7b-ffb9-524d-87b0-4930c21dc1ef",
+          "chunk_id": "bb0fd511-85af-5643-a3f9-23e04996ef15",
+          "document_title": "Volkswagen Golf VII / Variant 2015 - Suspension, Wheels, Steering - 03.2016",
+          "page": 10,
+          "content_hash": "94740e238d874e9f7cfbfaedaef6df83b21185f813b186bba7c39cfdd85ee354"
+        }
+      ]
+    },
+    {
+      "id": "airbag_safety",
+      "query": "What does the reference say about qualified personnel and electrical testing of pyrotechnic airbag components?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price. Preserve professional-only safety limitations; do not turn the reference into DIY airbag testing instructions.",
+      "anchors": [
+        {
+          "document_id": "1a686610-ad85-52d0-ad95-727ad0c8c4df",
+          "chunk_id": "95064d9f-5482-57d2-8165-b6a8deec2ac4",
+          "document_title": "Volkswagen Golf VII / Variant 2015 - Body Interior, Airbags and Occupant Protection - 09.2015",
+          "page": 12,
+          "content_hash": "dd62eda1daa6c8c34c159f8bae3e3d64b5d2ade74c77ad14b1f3075804fa4796"
+        }
+      ]
+    },
+    {
+      "id": "airbag_module",
+      "query": "Which identifiers are used for the airbag control module and airbag indicator lamp in the related Golf reference?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price. Preserve professional-only safety limitations; do not turn the reference into DIY airbag testing instructions.",
+      "anchors": [
+        {
+          "document_id": "7d28a4bd-b91e-559a-9d92-ae203d542ecc",
+          "chunk_id": "d1cf3fb1-0a44-55d1-905f-576263828031",
+          "document_title": "Volkswagen Golf VII / Variant 2015 - Body Interior, Airbags and Occupant Protection - 09.2015",
+          "page": 133,
+          "content_hash": "3eae7b4e6ad3103a9b13497e01235a60056fa51a28da0e4eafb35e70c9fb34bf"
+        }
+      ]
+    },
+    {
+      "id": "electrical_labels",
+      "query": "Which wiring reference identifies the brake fluid level warning switch and instrument cluster module?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price. Text labels do not establish graphical wire connectivity or the correct fuse assignment for the owner vehicle.",
+      "anchors": [
+        {
+          "document_id": "3cb8148d-bcf2-51f0-8070-583574ca3e14",
+          "chunk_id": "5d624841-a0ea-5a2e-9fc4-6eb2016e07f2",
+          "document_title": "Volkswagen Golf VI - Wiring Diagrams (635-page source collection)",
+          "page": 6,
+          "content_hash": "23238b071109da05ca648a492139d17e671b57bd86b83a8801dd3558cd1e1503"
+        }
+      ]
+    },
+    {
+      "id": "fuse_panel",
+      "query": "Which related Golf component-location reference mentions SC2 and control modules J104 and J500?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price. Text labels do not establish graphical wire connectivity or the correct fuse assignment for the owner vehicle.",
+      "anchors": [
+        {
+          "document_id": "88ca019c-26a6-552b-8f29-c8d03bc52017",
+          "chunk_id": "34e52d78-81d9-5e14-8784-13a935bbfcc2",
+          "document_title": "Volkswagen Golf VI - Component Locations (324-page source collection)",
+          "page": 46,
+          "content_hash": "3ee222264a3ff5a14cb7026aed320278ecc16abeae9b6966e5e9e189f8e61743"
+        }
+      ]
+    },
+    {
+      "id": "egr_position",
+      "query": "How are the N18 exhaust gas recirculation valve and G212 position signal described in the related common-rail training reference?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "683e5fc5-683d-5553-9f92-fc1e2f16ded4",
+          "chunk_id": "69cb21b7-e353-5639-acf1-5cbb123b9a99",
+          "document_title": "Volkswagen SSP 403 - 2.0 TDI Common Rail (CBAB), EGR and DPF - 10.2007",
+          "page": 47,
+          "content_hash": "4167402c455fab8c4c8d432ebef1aaf038de64a96e328a09085a726c67ed16e4"
+        }
+      ]
+    },
+    {
+      "id": "dpf_sensors",
+      "query": "Which exhaust pressure and temperature sensors are identified around the particulate filter in the related common-rail reference?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "683e5fc5-683d-5553-9f92-fc1e2f16ded4",
+          "chunk_id": "0fe571d1-2ec5-5eec-a84f-b746c03a11ee",
+          "document_title": "Volkswagen SSP 403 - 2.0 TDI Common Rail (CBAB), EGR and DPF - 10.2007",
+          "page": 50,
+          "content_hash": "135ca4178693f76a027bec7bf501d0c1f90d28fc1d1a3f70e317117d7d9a86e8"
+        }
+      ]
+    },
+    {
+      "id": "dpf_structure",
+      "query": "How are the oxidation catalyst and particulate filter arranged in the related Tiguan common-rail reference?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "683e5fc5-683d-5553-9f92-fc1e2f16ded4",
+          "chunk_id": "1668c80b-1e17-53b4-9855-77296a2f0eb4",
+          "document_title": "Volkswagen SSP 403 - 2.0 TDI Common Rail (CBAB), EGR and DPF - 10.2007",
+          "page": 51,
+          "content_hash": "0fe4b41477690e673bcd2b020a05797fd876866577543d3f9275c4deecaf3476"
+        }
+      ]
+    },
+    {
+      "id": "boost_signal",
+      "query": "How does the common-rail training reference describe loss of the G31 boost-pressure signal and reduced engine power?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "683e5fc5-683d-5553-9f92-fc1e2f16ded4",
+          "chunk_id": "6eefe95a-c307-5c73-b4a4-38d3a21927e1",
+          "document_title": "Volkswagen SSP 403 - 2.0 TDI Common Rail (CBAB), EGR and DPF - 10.2007",
+          "page": 45,
+          "content_hash": "430d9d710527160c0d6b8fa78881ef46949a3f6ebe29e685d1a478589bb23a65"
+        }
+      ]
+    },
+    {
+      "id": "cooling_sensors",
+      "query": "What coolant circulation components and G62/G83 temperature sensors appear in the related engine training reference?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "683e5fc5-683d-5553-9f92-fc1e2f16ded4",
+          "chunk_id": "7cc04e77-57fe-5cf5-a648-9bffb92af0e7",
+          "document_title": "Volkswagen SSP 403 - 2.0 TDI Common Rail (CBAB), EGR and DPF - 10.2007",
+          "page": 22,
+          "content_hash": "2064c226458ebe5610d60e2342ff9a676c13594f09101dc03f409c2409ef33d3"
+        }
+      ]
+    },
+    {
+      "id": "alternator_isolation",
+      "query": "Does the related Jetta alternator guide discuss battery terminal disconnection?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "29e403f8-acd6-5a8e-bb75-874be759ff92",
+          "chunk_id": "ce5434cf-81cc-5549-8c76-1ca0530f5390",
+          "document_title": "2011- 2017 Volkswagen Jetta Alternator Replacement",
+          "page": 4,
+          "content_hash": "6894f0752d2747ddfa351887c6d0d8de10b2a5106552ec2f2b2e689820864522"
+        }
+      ]
+    },
+    {
+      "id": "blower_resistor",
+      "query": "How does the related Jetta guide distinguish the blower resistor from the blower motor?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "4d9810c6-81f9-5981-acd2-7bfb4ee49ae7",
+          "chunk_id": "dcd37e28-2069-57ec-8a87-1df0fa2a275c",
+          "document_title": "2011-2018 Volkswagen Jetta Blower Motor Resistor Replacement",
+          "page": 4,
+          "content_hash": "30c502ccf92088f88701402abe597299dac3729b6fa64ee3b7c274c859619a85"
+        }
+      ]
+    },
+    {
+      "id": "window_module",
+      "query": "Which related Jetta guide describes the door power-window control module connector and bezel?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "a00f3d0d-f9d2-58b8-b618-8cf72d8302e8",
+          "chunk_id": "64cf3a1c-a92e-5fce-8729-b4cfbb51b065",
+          "document_title": "2002 VW Jetta Driver Side Power Window Module Replacement",
+          "page": 5,
+          "content_hash": "e837a9e4aa051e0306e940fc7e8be03d92e0c5b808a81968c799e3429c98746f"
+        }
+      ]
+    },
+    {
+      "id": "egr_spanish",
+      "query": "Que explica la referencia common rail sobre la valvula EGR N18 y su sensor de posicion G212?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "683e5fc5-683d-5553-9f92-fc1e2f16ded4",
+          "chunk_id": "69cb21b7-e353-5639-acf1-5cbb123b9a99",
+          "document_title": "Volkswagen SSP 403 - 2.0 TDI Common Rail (CBAB), EGR and DPF - 10.2007",
+          "page": 47,
+          "content_hash": "4167402c455fab8c4c8d432ebef1aaf038de64a96e328a09085a726c67ed16e4"
+        }
+      ]
+    },
+    {
+      "id": "steering_spanish",
+      "query": "Que comprobaciones de direccion y suspension menciona la referencia cuando el coche tira hacia un lado?",
+      "expected_scope": "related_volkswagen_learning",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "8b28456e-eaa8-50b2-a1ff-6b2dadbd89b5",
+          "chunk_id": "9cb7796b-e536-577c-86a4-0ee90442bd8a",
+          "document_title": "Volkswagen Golf VII / Variant 2015 - Suspension, Wheels, Steering - 03.2016",
+          "page": 302,
+          "content_hash": "1b40c6b41eee1b5faac53cb5fe44a38f5f42cc3c939cdc3dfae82cac410f97fa"
+        }
+      ]
+    },
+    {
+      "id": "brake_spanish",
+      "query": "Que documentacion trata el recorrido excesivo o tacto blando del pedal tras purgar los frenos?",
+      "expected_scope": "matching_vehicle_metadata",
+      "review_expectation": "Identify the source and original PDF page. Treat related-model information as a learning reference, not verified Golf Plus fitment. Do not infer a confirmed fault or a part price.",
+      "anchors": [
+        {
+          "document_id": "0758408c-82ba-5eb1-b26a-97f1accba15e",
+          "chunk_id": "1424d168-2023-5d5f-9be9-7b40ab54c89d",
+          "document_title": "Volkswagen Golf / Golf Plus 2009 - Brake System (05.2012)",
+          "page": 102,
+          "content_hash": "1af8cb871027ba078d73d340246459d3b0b86955b1c848bb90948d56f21b1901"
+        }
+      ]
+    }
+  ]
+}
